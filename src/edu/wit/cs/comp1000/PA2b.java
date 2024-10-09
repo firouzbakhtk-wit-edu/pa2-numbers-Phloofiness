@@ -24,7 +24,7 @@ public class PA2b {
         double a = scanner.nextFloat();
         double b = scanner.nextFloat();
         double c = scanner.nextFloat();
-
+        scanner.close();
         // Finding d, which is the discriminant of the quadratic formula.
         double d = ((b*b) - 4*a*c);
 
