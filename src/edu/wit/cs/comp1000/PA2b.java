@@ -21,9 +21,9 @@ public class PA2b {
 
         // Declaring variables a b and c
         System.out.print("Enter a b c: ");
-        double a = scanner.nextFloat();
-        double b = scanner.nextFloat();
-        double c = scanner.nextFloat();
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+        double c = scanner.nextDouble();
         scanner.close();
         // Finding d, which is the discriminant of the quadratic formula.
         double d = ((b*b) - 4*a*c);
